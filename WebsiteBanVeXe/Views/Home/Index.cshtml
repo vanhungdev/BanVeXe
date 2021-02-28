@@ -1,0 +1,247 @@
+﻿@model IEnumerable<WebsiteBanVeXe.Models.ticket>
+@{
+    ViewBag.Title = "Trang Chủ";
+    Layout = "~/Views/Shared/_layOutSite.cshtml";
+}
+<section class="mt_search" style="margin-top:50px !important; ">
+    <div class="container card bg-white" style="padding:30px !important; ">
+        <div class="search-content-slider">
+            <div class="section-title text-center ">
+                <h2>TÌM KIẾM CHUYẾN XE CỦA BẠN</h2>
+                <p>Yatra.com - Hệ thống đặt vé xe khách lớn nhất Việt Nam.</p>
+            </div>
+            <form action="~/Site/CoachSearch" method="POST" id="form-search">
+                <div class="radio" align="center">
+                    <label><input value="disable" type="radio" id="typeticket" name="typeticket" checked>Vé một Chiều</label>
+                    <label><input value="enable" type="radio" id="typeticket" name="typeticket">Khứ Hồi</label>
+                </div>
+                <input type="hidden" id="ticketCheck" value="" />
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="table_item">
+                            <div class="form-group">
+                                <select name="departure_address" class="selectpicker form-control" tabindex="1" required>
+
+                                    <option value="TP.Hồ Chí Minh" selected="selected">TP.Hồ Chí Minh</option>
+                                    <option value="Hà Nội">Hà Nội</option>
+                                    <option value="Vân Đồn">Vân Đồn</option>
+                                    <option value="Hải Phòng">Hải Phòng</option>
+                                    <option value="Thanh Hóa">Thanh Hóa</option>
+                                    <option value="Vinh">Vinh</option>
+                                    <option value="Đồng Hới">Đồng Hới</option>
+                                    <option value="Huế">Huế</option>
+                                    <option value="Đà Nẵng">Đà Nẵng</option>
+                                    <option value="Chu Lai">Chu Lai</option>
+                                    <option value="Quy Nhơn">Quy Nhơn</option>
+                                    <option value="Tuy Hòa">Tuy Hòa</option>
+                                    <option value="Nha Trang">Nha Trang</option>
+                                    <option value="Đà Lạt">Đà Lạt</option>
+                                    <option value="Pleiku">Pleiku</option>
+                                    <option value="Ban Mê Thuột">Ban Mê Thuột</option>
+                                    <option value="Cần Thơ">Cần Thơ (VCA)</option>
+                                </select>
+                                <i class="flaticon-maps-and-flags"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="table_item">
+                            <div class="form-group">
+                                <select name="arrival_address" class="selectpicker form-control" tabindex="1">
+                                    <option value="TP.Hồ Chí Minh">TP.Hồ Chí Minh</option>
+                                    <option value="Hà Nội">Hà Nội</option>
+                                    <option value="Vân Đồn">Vân Đồn</option>
+                                    <option value="Hải Phòng">Hải Phòng</option>
+                                    <option value="Thanh Hóa">Thanh Hóa</option>
+                                    <option value="Vinh">Vinh</option>
+                                    <option value="Đồng Hới">Đồng Hới</option>
+                                    <option value="Huế">Huế</option>
+                                    <option value="Đà Nẵng">Đà Nẵng</option>
+                                    <option value="Chu Lai">Chu Lai</option>
+                                    <option value="Quy Nhơn" selected="selected">Quy Nhơn</option>
+                                    <option value="Tuy Hòa">Tuy Hòa</option>
+                                    <option value="Nha Trang">Nha Trang</option>
+                                    <option value="Đà Lạt">Đà Lạt</option>
+                                    <option value="Pleiku">Pleiku</option>
+                                    <option value="Ban Mê Thuột">Ban Mê Thuột</option>
+                                    <option value="Cần Thơ">Cần Thơ (VCA)</option>
+                                </select>
+                                <i class="flaticon-maps-and-flags"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="table_item">
+                            <div class="form-group">
+                                <select name="songuoi" class="selectpicker form-control" tabindex="1">
+                                    <option value="1">Số ghế (Mặc định 1)</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+
+                                </select>
+                                <i class="flaticon-box"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="table_item">
+                            <div class="form-group ">
+                                <div class='input-group date' id='datetimepicker1'>
+                                    <input type="text" id="departure_date" name="departure_date" class="form-control" value="Chọn ngày" onclick="return 0" />
+                                    <i class="flaticon-calendar"></i>
+
+                                    <span class="input-group-addon">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                    </span>
+
+                                </div>
+                                <span class="text-danger" id="ngayXe"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="table_item">
+                            <div class="form-group">
+                                <div class='input-group date' id='datetimepicker2'>
+                                    <input type='text' id="arrival_date" name="arrival_date" class="form-control" value="Ngày về" required />
+                                    <i class="flaticon-calendar"></i>
+                                    <span class="input-group-addon">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                    </span>
+
+                                </div>
+                                <span class="text-danger" id="ngayve"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12  ">
+                        <div class="table_item " align="center">
+                            <div class="search ">
+                                <button type="submit" class="btn-blue btn-red ">TIM KIẾM CHUYẾN XE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Top Destinations -->
+<section class="flight-destinations">
+    <div class="container bg-white">
+        <div class="row">
+            <form action="~/Checkout/Index" method="post">
+                <input type="hidden" name="songuoi" value="@ViewBag.songuoi" />
+                <div class="col-md-12">
+                    <div class="flight-head">
+                        <div class="">
+                            <div class="col-md-10">
+                                <nav aria-label="breadcrumb">
+                                    @{var Date = ViewBag.dateNow; }
+                                    <span style="font-weight:bold; font-size:22px;color:#ff6a00;"> Một số chuyến xe trong ngày: @Date.ToString("dd-MM-yyyy") </span>
+
+                                </nav>
+                            </div>
+                          
+                            <div class="col-md-2"> <a href="~/chuyen-xe-trong-ngay" class="btn-blue btn-red btn-style-1 w-100">Xem tất cả</a></div>
+                        </div>
+                    </div>
+                   
+                    </div>
+                    <div class="flight-table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Nhà Xe</th>
+                                    <th>Nơi khởi hành</th>
+                                    <th>Nơi đến</th>
+                                    <th>Xem chi tiết</th>
+                                    <th>Giá vé xe</th>
+                                  
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td class="text-center">
+                                            <img src="~/public/images/flight/@item.img" alt="">
+                                        </td>
+                                        <td>
+                                            <h6>@item.departure_address</h6>
+                                            <p>Bến Xe (@item.departure_address)</p>
+                                        </td>
+                                        <td>
+                                            <h6>@item.arrival_address</h6>
+                                            <P>Bến Xe (@item.arrival_address)</P>
+                                        </td>
+                                        <td>
+                                            <a href="~/chuyen-xe/@item.id">Xem chi tiết</a>
+                                        </td>
+                                        <td>
+                                            <h6><strong class="color-red-3">@item.price.ToString("N0") VND</strong></h6>
+                                            <p class="emi">(loại tiền - VND)</p>
+                                        </td>
+                                        
+                                    </tr>
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+            </form>
+        </div>
+    </div>
+
+</section>
+    <script>
+        $("#form-search").submit(function (event) {
+            $("#ngayXe").text("");
+            $("#ngayve").text("");
+           var ngayXe = $("#departure_date").val();
+            var ngayve = $("#arrival_date").val();
+            var typeticket = $("#ticketCheck").val();
+
+           
+            if (ngayXe == "Chọn ngày") {
+                $("#ngayXe").text("Vui lòng chọn ngày khởi hành");
+              
+                return false;
+
+            }
+            if (typeticket == 2) {
+                if (ngayve == "Ngày về") {
+                    $("#ngayve").text("Vui lòng chọn ngày về");
+                    return false
+                }
+                else {
+                    return true;
+                }
+            }
+            return true;
+		
+	});
+        $(document).ready(function () {
+            // By Default Disable radio button
+            $("#arrival_date").attr('disabled', true);
+            $("form input:radio").change(function () {
+                if ($(this).val() == "enable") {
+                    $("#arrival_date").attr('disabled', false);
+                    $("#ticketCheck").val(2);
+                }
+                else {
+                    $("#arrival_date").attr('disabled', true);
+                    $("#ticketCheck").val(1);
+                }
+            });
+        });
+    </script>

@@ -1,0 +1,117 @@
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\WebsiteBanVeXe.dll.config
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\WebsiteBanVeXe.dll
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\WebsiteBanVeXe.pdb
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\roslyn\csc.exe
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\roslyn\csc.exe.config
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\roslyn\csc.rsp
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\roslyn\csi.exe
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\roslyn\csi.rsp
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\roslyn\System.AppContext.dll
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\roslyn\System.Collections.Immutable.dll
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\roslyn\System.IO.FileSystem.dll
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\roslyn\System.Reflection.Metadata.dll
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\roslyn\vbc.exe
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\roslyn\vbc.exe.config
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\roslyn\vbc.rsp
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\roslyn\VBCSCompiler.exe
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\roslyn\VBCSCompiler.exe.config
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\EntityFramework.dll
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\EntityFramework.SqlServer.dll
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\log4net.dll
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\Microsoft.Web.Infrastructure.dll
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\Newtonsoft.Json.dll
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\PagedList.dll
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\PagedList.Mvc.dll
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\System.Web.Helpers.dll
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\System.Web.Mvc.dll
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\System.Web.Razor.dll
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\System.Web.Webpages.Deployment.dll
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\System.Web.Webpages.dll
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\System.Web.Webpages.Razor.dll
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\EntityFramework.xml
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\EntityFramework.SqlServer.xml
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\PagedList.xml
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\PagedList.Mvc.xml
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\System.Web.Razor.xml
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\System.Web.Webpages.xml
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\System.Web.Webpages.Deployment.xml
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\System.Web.Webpages.Razor.xml
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\System.Web.Helpers.xml
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\System.Web.Mvc.xml
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\obj\Debug\WebsiteBanVeXe.csproj.CoreCompileInputs.cache
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\obj\Debug\WebsiteBanVeXe.csproj.CopyComplete
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\obj\Debug\WebsiteBanVeXe.dll
+D:\Ptoject 3\BanVeXe\WebsiteBanVeXe\obj\Debug\WebsiteBanVeXe.pdb
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\WebsiteBanVeXe.dll.config
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\WebsiteBanVeXe.dll
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\WebsiteBanVeXe.pdb
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\roslyn\csc.exe
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\roslyn\csc.exe.config
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\roslyn\csc.rsp
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\roslyn\csi.exe
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\roslyn\csi.rsp
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\roslyn\System.AppContext.dll
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\roslyn\vbc.exe
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\roslyn\vbc.exe.config
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\roslyn\vbc.rsp
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\roslyn\VBCSCompiler.exe
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\EntityFramework.dll
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\EntityFramework.SqlServer.dll
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\log4net.dll
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\Newtonsoft.Json.dll
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\PagedList.dll
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\PagedList.Mvc.dll
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\System.Web.Helpers.dll
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\System.Web.Mvc.dll
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\System.Web.Razor.dll
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\System.Web.Webpages.Deployment.dll
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\System.Web.Webpages.dll
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\System.Web.Webpages.Razor.dll
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\EntityFramework.xml
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\EntityFramework.SqlServer.xml
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\PagedList.xml
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\PagedList.Mvc.xml
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\System.Web.Razor.xml
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\System.Web.Webpages.xml
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\System.Web.Webpages.Deployment.xml
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\System.Web.Webpages.Razor.xml
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\System.Web.Helpers.xml
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\System.Web.Mvc.xml
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\obj\Debug\WebsiteBanVeXe.csprojAssemblyReference.cache
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\obj\Debug\WebsiteBanVeXe.csproj.CoreCompileInputs.cache
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\obj\Debug\WebsiteBanVeXe.csproj.CopyComplete
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\obj\Debug\WebsiteBanVeXe.dll
+C:\Users\hungdeptrai\Desktop\BanVeXe\WebsiteBanVeXe\obj\Debug\WebsiteBanVeXe.pdb

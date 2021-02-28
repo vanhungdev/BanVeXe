@@ -1,0 +1,38 @@
+﻿@model IEnumerable<WebsiteBanVeXe.Models.ticket>
+<h2>Các vé đã book</h2>
+@foreach (var item in Model)
+{
+    
+    <table class="table border" style="margin-top:20px;">
+        <tbody>
+            <tr>
+                <td class="title">Mã vé</td>
+                <td>@item.code</td>
+            </tr>
+            <tr>
+                <td class="title">Tên nhà xe</td>
+                <td>@item.CoachName</td>
+            </tr>
+            <tr>
+                <td class="title">Thời gian xuất bến</td>
+                <td>@item.departure_date.ToString("dd-MM-yyyy") ||  Lúc @item.departure_date.ToString("hh:mm tt")</td>
+            </tr>
+            <tr>
+                <td class="title">Nơi xuất phát (Bến Xe)</td>
+                <td>@item.airport</td>
+            </tr>
+            <tr>
+                <td class="title">Nơi đến</td>
+                <td>@item.arrival_address</td>
+            </tr>
+            <tr>
+                <td class="title">Biển số xe</td>
+                <td>@item.licensePlates</td>
+            </tr>
+            <tr>
+                <td class="title">Tổng tiền</td>
+                <td class="b-id text-danger font-weight-bold">@item.price.ToString("N0") VND</td>
+            </tr>
+        </tbody>
+    </table>
+}

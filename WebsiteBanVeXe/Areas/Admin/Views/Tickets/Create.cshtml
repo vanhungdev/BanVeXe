@@ -1,0 +1,148 @@
+﻿@model WebsiteBanVeXe.Models.ticket
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_layOutAdmin.cshtml";
+    List<SelectListItem> listcoach = new List<SelectListItem>();
+    SelectListItem listcoachitem;
+    foreach (var item in ViewBag.listCoach)
+    {
+        listcoachitem = new SelectListItem() { Value = item.id + "", Text = item.name + "" };
+        listcoach.Add(listcoachitem);
+    }
+}
+
+<div class="card card-title bg-white p-1 container">
+    <div class="row">
+        <div class="col-md-6 "> <h5 class="pl-2 mt-2 text-blues">Thêm vé </h5> </div>
+        <div class="col-md-6 m-0">
+            <ol class="breadcrumb bg-white float-sm-right m-0">
+                <li class="breadcrumb-item"><a href="/Admin">Home</a></li>
+                <li class="breadcrumb-item active">Thêm vé</li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+<section class="container pt-2 card">
+    @Html.Partial("_MessgeAlert")
+    <div class="container bg-white pt-4 ">
+
+        @using (Html.BeginForm("Create", "Tickets", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            @Html.AntiForgeryToken()
+            <div class=" row ">
+                <div class="col-md-4">  </div>
+                <div class="col-md-4"> <h3 class="text-center font-weight-bold text-success "> THÊM VÉ MÁY Xe</h3> </div>
+                <div class="col-md-4 ">
+                    <div class="float-right">
+                        <button class="btn btn-sm bg-success text-white"><i class="far fa-save"></i> Lưu</button>
+                        <a href="~/admin/Tickets" class="btn btn-sm bg-danger text-white"><i class="far fa-window-close"></i> Hủy</a>
+                    </div>
+                </div>
+            </div>
+            <div class=" row ">
+                <div class="col-md-8">
+                    <div>
+                        <label for="psw"><span class="text-secondary font-weight-bold">Tiêu đề vé</span></label>
+                        @Html.EditorFor(model => model.name, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.name, "", new { @class = "text-danger" })
+                    </div>
+                    <div>
+                        <label for="psw"><span class="text-secondary font-weight-bold">Mô tả vé</span></label>
+                        @Html.EditorFor(model => model.description, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.description, "", new { @class = "text-danger" })
+                    </div>
+                    <div>
+                        <label for="psw"><span class="text-secondary font-weight-bold">Nơi Xe</span></label>
+                        <select name="departure_address" class="selectpicker form-control" tabindex="1" required>
+                            <option value="TP.Hồ Chí Minh" selected="selected">TP.Hồ Chí Minh</option>
+                            <option value="Hà Nội">Hà Nội</option>
+                            <option value="Vân Đồn">Vân Đồn</option>
+                            <option value="Hải Phòng">Hải Phòng</option>
+                            <option value="Thanh Hóa">Thanh Hóa</option>
+                            <option value="Vinh">Vinh</option>
+                            <option value="Đồng Hới">Đồng Hới</option>
+                            <option value="Huế">Huế</option>
+                            <option value="Đà Nẵng">Đà Nẵng</option>
+                            <option value="Chu Lai">Chu Lai</option>
+                            <option value="Quy Nhơn">Quy Nhơn</option>
+                            <option value="Tuy Hòa">Tuy Hòa</option>
+                            <option value="Nha Trang">Nha Trang</option>
+                            <option value="Đà Lạt">Đà Lạt</option>
+                            <option value="Pleiku">Pleiku</option>
+                            <option value="Ban Mê Thuột">Ban Mê Thuột</option>
+                            <option value="Cần Thơ">Cần Thơ (VCA)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="psw"><span class="text-secondary font-weight-bold">Nơi đến</span></label>
+                        <select name="arrival_address" class="selectpicker form-control" tabindex="1">
+                            <option value="TP.Hồ Chí Minh" selected="selected">TP.Hồ Chí Minh</option>
+                            <option value="Hà Nội">Hà Nội</option>
+                            <option value="Vân Đồn">Vân Đồn</option>
+                            <option value="Hải Phòng">Hải Phòng</option>
+                            <option value="Thanh Hóa">Thanh Hóa</option>
+                            <option value="Vinh">Vinh</option>
+                            <option value="Đồng Hới">Đồng Hới</option>
+                            <option value="Huế">Huế</option>
+                            <option value="Đà Nẵng">Đà Nẵng</option>
+                            <option value="Chu Lai">Chu Lai</option>
+                            <option value="Quy Nhơn">Quy Nhơn</option>
+                            <option value="Tuy Hòa">Tuy Hòa</option>
+                            <option value="Nha Trang">Nha Trang</option>
+                            <option value="Đà Lạt">Đà Lạt</option>
+                            <option value="Pleiku">Pleiku</option>
+                            <option value="Ban Mê Thuột">Ban Mê Thuột</option>
+                            <option value="Cần Thơ">Cần Thơ (VCA)</option>
+                        </select>
+
+                    </div>
+                    <div>
+                        <label for="psw"><span class="text-secondary font-weight-bold">Bến Xe</span></label>
+                        @Html.EditorFor(model => model.airport, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.airport, "", new { @class = "text-danger" })
+                    </div>
+
+                </div>
+                <div class="col-md-4 ">
+                    <div>
+                        <label for="psw"><span class="text-secondary font-weight-bold">Loại vé</span></label>
+                        <select name="ticketType" class="selectpicker form-control" tabindex="1">
+                            <option selected value="Thường">Thường</option>
+                            <option value="Thương gia">Thương gia</option>
+                        </select>
+
+                    </div>
+
+
+                    <div>
+
+                        <label for="psw"><span class="text-secondary font-weight-bold">Thời gian xuất bến</span></label>
+                        <input type="datetime-local" name="departure_date" class="form-control" value="" required />
+                    </div>
+
+                    <div>
+                        <label for="psw"><span class="text-secondary font-weight-bold">Nhà Xe</span></label>
+                        @Html.DropDownListFor(model => model.garageId, listcoach, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.garageId, "", new { @class = "text-danger" })
+                    </div>
+                    <div>
+                        <label for="psw"><span class="text-secondary font-weight-bold">Số tiền vé</span></label>
+                        <input type="number" name="price" class="form-control" value="" />
+                    </div>
+                    <div>
+                        <label for="psw"><span class="text-secondary font-weight-bold">Trạng thái</span></label>
+                        <select name="status" class="selectpicker form-control" tabindex="1">
+                            <option value="1">Hiện</option>
+                            <option value="2">Ẩn</option>
+                        </select>
+                    </div>
+
+                </div>
+
+
+            </div>
+        }
+    </div>
+</section>
